@@ -1,0 +1,22 @@
+{
+  "name": "Simplified to Traditional",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "phrases.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "phrases.txt"
+      }, {
+        "type": "text",
+        "file": "characters.txt"
+      }]
+    }
+  }]
+}
