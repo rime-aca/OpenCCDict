@@ -3,7 +3,7 @@
 2. ch2emoji performs a conversion from Chinese to Emoji, regardless of how you input the Chinese, providing an intuitive way to input emoji.
 ---
 ## Usage
-1. Put the txt files togather with the json file in 'opencc' directory under your Rime’s user directory;
+1. Put the txt files together with the json file in 'opencc' directory under your Rime’s user directory;
 2. Customise the schema file and add these to the corresponding sections:
 ```
 switches:
